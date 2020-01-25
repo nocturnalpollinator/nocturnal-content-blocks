@@ -3,6 +3,7 @@
 ## Examples
 
 ### Creating a content block
+Create a folder in your theme root directory called `acf-content-blocks` and the plugin will include all blocks for you.
 ```php
 <?php
 class Banner extends \NocturnalContent\LayoutBuilder
@@ -26,6 +27,7 @@ class Banner extends \NocturnalContent\LayoutBuilder
 ```
 
 ### Register blocks
+It's up to you where you put your build files. You could put them in `acf-content-blocks` as well, but make sure it ends up last. Maybe name your blocks with a _-prefix?
 ```php
 <?php
 
