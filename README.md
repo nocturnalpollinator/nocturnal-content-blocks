@@ -1,9 +1,9 @@
 # Nocturnal Content Blocks
 
 ## Requirements
-[ ] (Advanced Custom Fields Pro)[https://www.advancedcustomfields.com/pro/]
-[ ] (ACF Builder)[https://github.com/StoutLogic/acf-builder]
-[ ] Preferably (Composer)[https://getcomposer.org/]
+* [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)
+* [ACF Builder](https://github.com/StoutLogic/acf-builder)
+* Preferably [Composer](https://getcomposer.org/)
 
 ## Installation
 If you don't already have ACF Builder on your WordPress installation you could run `composer install` from the plugin root.
