@@ -1,0 +1,13 @@
+{
+    "name": "robin/nocturnal-content-blocks",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Robin Jonsson",
+            "email": "hejrobinjonsson@gmail.com"
+        }
+    ],
+    "require": {
+        "stoutlogic/acf-builder": "^1.9"
+    }
+}
