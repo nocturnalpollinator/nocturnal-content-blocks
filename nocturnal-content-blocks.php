@@ -10,7 +10,9 @@
 define( 'NOC_CBLOCK_PATH', plugin_dir_path( __FILE__ ) );
 define( 'NOC_CBLOCK_THEME_CONTENT', get_template_directory() . '/acf-content-blocks' );
 
-require_once(NOC_CBLOCK_PATH . '/vendor/autoload.php');
+if (file_exists(NOC_CBLOCK_PATH . '/vendor/autoload.php')) {
+    require_once(NOC_CBLOCK_PATH . '/vendor/autoload.php');
+}
 
 /**
  * Disable Gutenberg 
